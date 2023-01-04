@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+</head>
+<body>
+    <h1>Formulaire d'inscription</h1>
+    <form action="">     
+        <label>Nom</label> <br>
+        <input type="text" name="nom"><br><br>
+        <label>Prénom</label><br>
+        <input type="text" name="nom"><br><br>
+        <label for="birth">Date de Naissance</label> <br>
+        <input type="date" id="start" name="trip-start" value="dd-mm-yyyy" min="01-01-1900" max="" > <br><br>
+        <label>Sexe</label><br>
+        <input type="radio" id="sexe" name="Sexe" value="male"
+        checked><label for="sexe">Mâle</label><br> 
+        <input type="radio" id="sexe" name="Sexe" value="femelle"><label for="sexe">Femelle</label><br> <br>
+        <label for="">Pays</label>
+        <select name="pays">
+            <option value="france">France</option>
+            <option value="italie">Italia</option>
+            <option value="allemagne">Deutschland</option>
+        </select> <br> <br>
+        <label>Texte</label><br>
+        <textarea type="textarea" name="texte" id="texte" cols="30" rows="10" ></textarea><br>
+        <br>
+        <button>Envoyer</button>
+    </form>
+</body>
+</html>
