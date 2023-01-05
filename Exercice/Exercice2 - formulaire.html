@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+</head>
+<body>
+    <h1>Formulaire d'inscription</h1>
+    <form action="/form.php" method="get">     
+        <p> 
+            <label for="nom">Nom</label> <br>
+            <input type="text" name="nom"><br>
+        </p>
+        <p>
+            <label for="prenom">Prénom</label><br>
+            <input type="text" name="prenom"><br>
+        </p>
+        <p>
+            <label for="birth">Date de Naissance</label> <br>
+            <input type="date" id="birth" name="birth" value="dd-mm-yyyy" min="01-01-1900" max="05/01/2023" > <br>
+        </p>
+        <!-- autre possibilité -->
+        <!-- <label for="birth">Date de Naissance</label> <br> 
+        <input type="text" id="birth" name="birth" placeholder="jj-mm-aaaa"> <br> -->
+        <!-- fin -->
+        <p>
+        <label for="sexe">Sexe</label><br>
+            <input type="radio" id="sexe" name="Sexe" value="male" checked><label for="sexe">Mâle</label><br> 
+            <input type="radio" id="sexe" name="Sexe" value="femelle"><label for="sexe">Femelle</label><br>
+        </p>
+        <p>
+            <label for="pays">Pays (France, Italie, Allemagne)</label> <br>
+            <br>
+            <select id="pays" name="pays">
+                <option value="france">France</option>
+                <option value="italie">Italia</option>
+                <option value="allemagne">Deutschland</option>
+            </select> 
+            <br>
+        </p>
+        <p>
+            <label for="description">Description</label><br>
+            <textarea type="textarea" name="texte" id="description" cols="30" rows="10" ></textarea><br>
+        </p>
+        <button>Envoyer</button>
+    </form>
+</body>
+</html>
