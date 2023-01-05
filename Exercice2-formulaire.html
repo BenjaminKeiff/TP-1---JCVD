@@ -8,18 +8,21 @@
 </head>
 <body>
     <h1>Formulaire d'inscription</h1>
-    <form action="">     
+    <form action="/form.php" method="get">     
         <label>Nom</label> <br>
         <input type="text" name="nom"><br><br>
         <label>Prénom</label><br>
         <input type="text" name="nom"><br><br>
         <label for="birth">Date de Naissance</label> <br>
-        <input type="date" id="start" name="trip-start" value="dd-mm-yyyy" min="01-01-1900" max="" > <br><br>
+        <input type="date" id="start" name="trip-start" value="dd-mm-yyyy" min="01-01-1900" max="05/01/2023" > <br><br>
+        <!-- autre possibilité -->
+        <!-- <label for="birth">Date de Naissance</label> <br> 
+        <input type="text" name="birth" placeholder="jj-mm-aaaa"> <br> -->
         <label>Sexe</label><br>
         <input type="radio" id="sexe" name="Sexe" value="male"
         checked><label for="sexe">Mâle</label><br> 
         <input type="radio" id="sexe" name="Sexe" value="femelle"><label for="sexe">Femelle</label><br> <br>
-        <label for="">Pays (France, Italie, Allemagne</label>
+        <label for="">Pays (France, Italie, Allemagne)</label>
         <select name="pays">
             <option value="france">France</option>
             <option value="italie">Italia</option>
