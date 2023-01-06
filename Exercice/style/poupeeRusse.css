@@ -1,0 +1,32 @@
+div {
+    color: rgba(0, 255, 255, 0);
+    padding: 110px;
+}
+
+#castle{
+    border: 1px solid black;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../img/neuschwanstein-g49e1b9d67_1920.jpg")
+}
+#compas{
+    border: 1px solid black;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../Exercice/img/notepad-g6ec523bc5_1920.jpg);
+}
+
+#map{
+    border: 1px solid black;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../Exercice/img/compass-gd68b433a0_1920.jpg);
+}
+
+
+#photo{
+    border: 1px solid black;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../Exercice/img/camera-gcd21408bf_1920.jpg);
+}
